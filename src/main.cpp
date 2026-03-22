@@ -52,12 +52,5 @@ int main(int argc, char* argv[] ) {
         }
     }
 
-    if (isDangerous(cmd)) {
-        cout << "⚠️  Dangerous command detected: " << arg << endl;
-        cout << "Are you sure you want to run this? (y/n): " << endl;
-    }
-
-
-
     return 0;
 }
